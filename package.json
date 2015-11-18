@@ -1,0 +1,16 @@
+{
+  "name": "callireader",
+  "version": "0.0.1",
+  "description": "Reader UI for the Calliope CMS",
+  "main": "app.js",
+  "dependencies": {
+    "jasmine": "^2.3.2",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp jasmine"
+  },
+  "author": "Daniel Ingraham",
+  "license": "ISC"
+}
