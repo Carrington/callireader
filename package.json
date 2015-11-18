@@ -4,10 +4,21 @@
   "description": "Reader UI for the Calliope CMS",
   "main": "app.js",
   "dependencies": {
-    "jasmine": "^2.3.2",
-    "redux": "^3.0.4"
+    "axios": "^0.7.0",
+    "lodash": "^3.10.1",
+    "react": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "redux-router": "^1.0.0-beta4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "jasmine": "^2.3.2",
+    "redux-devtools": "^2.1.5",
+    "webpack": "^1.12.6"
+  },
   "scripts": {
     "test": "gulp jasmine"
   },
